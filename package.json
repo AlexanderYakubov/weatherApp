@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install" ,
     "lint": "eslint .",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +15,7 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "eslint": "^8.41.0"
+    "eslint": "^8.41.0",
+    "husky": "^8.0.3"
   }
 }
