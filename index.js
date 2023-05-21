@@ -11,6 +11,5 @@ app.get("/", function (req, res) {
 
 // const a = 500;
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+app.listen(port, () => {console.log(`Example app listening on port ${port}`);
 });
