@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install" ,
+    "format": "prettier --write .",
+    "prepare": "husky install",
     "lint": "eslint .",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^8.41.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8"
   }
 }
