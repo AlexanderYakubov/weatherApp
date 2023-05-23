@@ -13,4 +13,7 @@ module.exports = {
         ecmaVersion: "latest",
         sourceType: "module",
     },
+    rules: {
+        "@typescript-eslint/no-inferrable-types": "off",
+    },
 };
